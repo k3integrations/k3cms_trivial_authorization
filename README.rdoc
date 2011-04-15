@@ -1,6 +1,6 @@
 = K3 Trivial Authorization
 
-This gem works with the k3_authorization gem to provide an ultra-simple
+This gem works with the k3cms_authorization gem to provide an ultra-simple
 authorization.  Basically, any logged-in user has FULL permissions for
 everything, and any non-logged-in user has only guest permissions.  These
 are not changeable.  There is no GUI for changing the default permissions 

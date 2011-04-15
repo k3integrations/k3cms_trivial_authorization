@@ -1,4 +1,4 @@
-module K3
+module K3cms
   module Authorization
     class GuestUser
       def initialize
@@ -6,15 +6,15 @@ module K3
         @guest_perms = auth_sets.compact.inject([].to_set) {|result,set| result + set.guest}
       end
       
-      def k3_permitted?(perm)
+      def k3cms_permitted?(perm)
         @guest_perms.include?(perm)
       end
       
-      def k3_permissions
+      def k3cms_permissions
         @guest_perms
       end
       
-      def k3_guest?
+      def k3cms_guest?
         true
       end
     end
