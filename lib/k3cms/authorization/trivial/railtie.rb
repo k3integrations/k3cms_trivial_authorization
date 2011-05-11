@@ -2,7 +2,10 @@ require "rails"
 
 module K3cms
   module Authorization
-    class TrivialAuthorizationEngine < Rails::Engine
+    module Trivial
+      class Railtie < Rails::Engine
+      end
     end
   end
 end
+

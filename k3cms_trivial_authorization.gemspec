@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "k3cms/trivial_authorization/version"
+require "k3cms/authorization/trivial/version"
 
 Gem::Specification.new do |s|
   s.name          = 'k3cms_trivial_authorization'
